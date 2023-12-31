@@ -8,9 +8,9 @@
     "@types/node": "^20.10.6",
     "typescript": "^5.3.3"
   },
-  "main": "build/src/server.js",
+  "main": "build/server.js",
   "scripts": {
     "build": "tsoa spec-and-routes && tsc",
-    "start": "node build/src/server.js"
+    "start": "node build/server.js"
   }
 }
