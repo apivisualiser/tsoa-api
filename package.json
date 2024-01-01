@@ -11,6 +11,7 @@
   "main": "build/server.js",
   "scripts": {
     "build": "tsoa spec-and-routes && tsc",
-    "start": "node build/server.js"
+    "start": "node build/server.js",
+    "dev": "yarn build && yarn start"
   }
 }
